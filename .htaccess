@@ -1,0 +1,8 @@
+# ErrorDocument 404 http://localhost/proyecto_mesa/views/404.php
+#ErrorDocument 404 http://localhost/proyecto_mesa/index.php
+
+# order deny,allow
+# deny from all
+# allow from 190.242.127.66
+# allow from 127.0.0.1
+# allow from 192.168.20.10

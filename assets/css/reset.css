@@ -1,0 +1,66 @@
+/* Definicion de variables */
+:root{
+    --color-principal: #FFFF;
+    --color-secondary: #e74c3c;
+    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;   
+    vertical-align: baseline;    
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+  
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;        
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* el scrol sea mas suave, la fuente se optimice */
+body{
+    /* que ocupe todo el espacio vertical */
+    font-family: "Poppins", Helvetica, sans-serif;
+    overflow: hidden;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: flex;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+   
+}
+
+p a{
+    display: inline;
+}
+
+img, video, iframe, picture, figure{
+    max-width: 100%;
+    display: block;
+}
+
+form, input, select, textarea, button, label {
+    display: block;
+    
+}
+
